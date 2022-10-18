@@ -1,63 +1,88 @@
 /* Змінні */
-:root{
-    --main-color:#F5F5F5;
-    --header-color:#ffffff;
-    --footer-color:#2F303A;
-    --action-color:#2196F3;
-    --font-main-color:#757575;
-    --font-submain-color:#212121;
+:root {
+	--main-color: #f5f5f5;
+	--header-color: #ffffff;
+	--footer-color: #2f303a;
+	--action-color: #2196f3;
+	--font-main-color: #757575;
+	--font-submain-color: #212121;
+	--button-passive-color: #f5f4fa;
 }
 
 /* Глобальні стилі */
-body{
-    background-color:var(--main-color)
+body {
+	background-color: var(--main-color);
 }
 
 /* __________________Утиліти_________________ */
-.list{
-    list-style: none;
+.list {
+	list-style: none;
 }
 
-.link{
-    text-decoration: none;
+.link {
+	text-decoration: none;
 }
 /* Хедер */
-.header{
-    background-color: var(--header-color);
+.header {
+	background-color: var(--header-color);
 }
 
-
-.logo{
-    color: #000000;
+.logo {
+	color: #000000;
 }
-.logo-name-web{
-    color: var(--action-color);
+.logo-name-web {
+	color: var(--action-color);
 }
 
 /* ___________________nav__________________ */
-.nav-list a{
-    color: var(--font-submain-color);
+.nav-list a {
+	color: var(--font-submain-color);
 }
 
 .nav-list a:hover,
-.nav-list a:focus{
-    color: var(--action-color);
+.nav-list a:focus {
+	color: var(--action-color);
 }
 
-
 /* ____________contacts____________ */
-.contacts-list a{
-    color: var(--font-main-color);
+.contacts-list a {
+	color: var(--font-main-color);
 }
 
 .contacts-list a:hover,
-.contacts-list a:focus{
-    color: var(--action-color);
+.contacts-list a:focus {
+	color: var(--action-color);
 }
 
+/* Герой*/
+.hero,
+.footer {
+	background-color: var(--footer-color);
+}
 
+.hero-title {
+	color: var(--header-color);
+}
 
-/* Герой і футер*/
-.hero, .footer{
-    background-color: var(--footer-color);
+.hero-button {
+	color: var(--header-color);
+	background-color: var(--action-color);
+	border: none;
+	border-radius: 4%;
+}
+
+.hero-button:active {
+	color: var(--header-color);
+	background-color: #188ce8;
+	border: none;
+	border-radius: 4%;
+}
+
+/* ________________Футер______________ */
+
+.footer a {
+	color: var(--header-color);
+}
+.adress-connect.link {
+	color: rgba(255, 255, 255, 0.6);
 }
