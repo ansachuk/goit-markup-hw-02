@@ -1,3 +1,63 @@
+/* Змінні */
+:root{
+    --main-color:#F5F5F5;
+    --header-color:#ffffff;
+    --footer-color:#2F303A;
+    --action-color:#2196F3;
+    --font-main-color:#757575;
+    --font-submain-color:#212121;
+}
+
+/* Глобальні стилі */
 body{
-    background-color: F5F5F5;
+    background-color:var(--main-color)
+}
+
+/* __________________Утиліти_________________ */
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+/* Хедер */
+.header{
+    background-color: var(--header-color);
+}
+
+
+.logo{
+    color: #000000;
+}
+.logo-name-web{
+    color: var(--action-color);
+}
+
+/* ___________________nav__________________ */
+.nav-list a{
+    color: var(--font-submain-color);
+}
+
+.nav-list a:hover,
+.nav-list a:focus{
+    color: var(--action-color);
+}
+
+
+/* ____________contacts____________ */
+.contacts-list a{
+    color: var(--font-main-color);
+}
+
+.contacts-list a:hover,
+.contacts-list a:focus{
+    color: var(--action-color);
+}
+
+
+
+/* Герой і футер*/
+.hero, .footer{
+    background-color: var(--footer-color);
 }
