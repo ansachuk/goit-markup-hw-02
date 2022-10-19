@@ -9,7 +9,7 @@
 	--button-passive-color: #f5f4fa;
 }
 
-/* Глобальні стилі */
+/*________________________ Глобальні стилі __________________*/
 body {
 	background-color: var(--main-color);
 }
@@ -22,6 +22,16 @@ body {
 .link {
 	text-decoration: none;
 }
+.title,
+.subtitle{
+	color: var(--font-submain-color);
+}
+/* _______________<p> font_______________ */
+.pf{
+	color: var(--font-main-color);
+}
+/* _______________</p> font_______________ */
+
 /* Хедер */
 .header {
 	background-color: var(--header-color);
@@ -78,11 +88,20 @@ body {
 	border-radius: 4%;
 }
 
+
+
+
 /* ________________Футер______________ */
 
 .footer a {
 	color: var(--header-color);
 }
+
+.address a:hover,
+.address a:focus{
+	color: var(--action-color);
+}
+
 .adress-connect.link {
 	color: rgba(255, 255, 255, 0.6);
 }
