@@ -121,42 +121,42 @@ body {
 
 /* -----------------------------main----------------------------- */
 
-.advences.subtitle{
+.advences.subtitle {
 	font-weight: 700;
-		font-size: 14px;
-		line-height: calc(16/14);
-		letter-spacing: 0.03em;
-		text-transform: uppercase;
+	font-size: 14px;
+	line-height: calc(16/14);
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
 }
 
-.advences-list-item-p{
-		font-size: 14px;
-		line-height: calc(24/14);
-		letter-spacing: 0.03em;
+.advences-list-item-p {
+	font-size: 14px;
+	line-height: calc(24/14);
+	letter-spacing: 0.03em;
 }
 
 .working.title,
-.our-team-title{
+.our-team-title {
 	font-weight: 700;
-		font-size: 36px;
-		line-height: calc(42/36);
-		text-align: center;
-		letter-spacing: 0.03em;
+	font-size: 36px;
+	line-height: calc(42/36);
+	text-align: center;
+	letter-spacing: 0.03em;
 }
 
-.members-subtitle{
+.members-subtitle {
 	font-weight: 500;
-		font-size: 16px;
-		line-height: calc(19/16);
-		text-align: center;
-		letter-spacing: 0.03em;
+	font-size: 16px;
+	line-height: calc(19/16);
+	text-align: center;
+	letter-spacing: 0.03em;
 }
 
-.members-position{
+.members-position {
 	font-size: 16px;
-		line-height: calc(19/16);
-		text-align: center;
-		letter-spacing: 0.03em;
+	line-height: calc(19/16);
+	text-align: center;
+	letter-spacing: 0.03em;
 }
 
 /* ________________Футер______________ */
@@ -172,11 +172,11 @@ body {
 }
 
 
-.address-list-item{
+.address-list-item {
 	font-style: normal;
 	font-size: 14px;
-		line-height: calc(24/14);	
-		letter-spacing: 0.03em;
+	line-height: calc(24/14);
+	letter-spacing: 0.03em;
 
 }
 
@@ -192,10 +192,10 @@ body {
 	border-radius: 4%;
 	cursor: pointer;
 	font-weight: 500;
-		font-size: 16px;
-		line-height: calc(26/16);
-		text-align: center;
-		letter-spacing: 0.03em;
+	font-size: 16px;
+	line-height: calc(26/16);
+	text-align: center;
+	letter-spacing: 0.03em;
 }
 
 .item-button:hover,
@@ -203,5 +203,17 @@ body {
 	color: var(--header-color);
 	background-color: var(--action-color);
 	border-radius: 4%;
-	cursor: pointer;
+}
+
+.exp.subtitle {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: calc(36/18);
+	letter-spacing: 0.06em;
+}
+
+.exp-p {
+	font-size: 16px;
+	line-height: calc(30/16);
+	letter-spacing: 0.03em;
 }
