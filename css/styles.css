@@ -13,7 +13,8 @@
 body {
 	background-color:var(--header-color);
 	color: var(--font-main-color);
-	font-family: "Roboto", "Raleway", sans-serif;
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
 }
 
 /* __________________Утиліти_________________ */
@@ -31,7 +32,7 @@ body {
 }
 
 .invisible{
-	font-size: 0;
+	visibility: hidden;
 }
 
 /* _______________</p> font_______________ */
@@ -54,11 +55,15 @@ body {
 	color: var(--action-color);
 }
 
+.current.link{
+	color: var(--action-color);
+}
+
 /* ___________________nav__________________ */
 .nav-list a {
 	color: var(--font-submain-color);
 	font-weight: 500;
-	font-size: 14px;
+	 
 	line-height: calc(16/14);
 	letter-spacing: 0.02em;
 }
@@ -72,7 +77,7 @@ body {
 .contacts-list a {
 	color: var(--font-main-color);
 	font-weight: 500;
-	font-size: 14px;
+	 
 	line-height: calc(16/14);
 	letter-spacing: 0.02em;
 }
@@ -125,15 +130,15 @@ body {
 /* -----------------------------main----------------------------- */
 
 .advences.subtitle {
-	font-weight: 700;
-	font-size: 14px;
+	 
+	 
 	line-height: calc(16/14);
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 }
 
 .advences-list-item-p {
-	font-size: 14px;
+	 
 	line-height: calc(24/14);
 	letter-spacing: 0.03em;
 }
@@ -144,7 +149,7 @@ body {
 
 .working.title,
 .our-team-title {
-	font-weight: 700;
+	 
 	font-size: 36px;
 	line-height: calc(42/36);
 	text-align: center;
@@ -172,16 +177,10 @@ body {
 	color: var(--header-color);
 }
 
-.address a:active,
-.address a:hover,
-.address a:focus {
-	color: var(--action-color);
-}
-
 
 .address-list-item {
 	font-style: normal;
-	font-size: 14px;
+	 
 	line-height: calc(24/14);
 	letter-spacing: 0.03em;
 
@@ -191,6 +190,11 @@ body {
 	color: rgba(255, 255, 255, 0.6);
 }
 
+.adress-connect.link:active,
+.adress-connect.link:hover,
+.adress-connect.link:focus{
+	color: var(--action-color);
+}
 /* portfolio */
 
 button{
@@ -218,7 +222,7 @@ button{
 }
 
 .exp.subtitle {
-	font-weight: 700;
+	 
 	font-size: 18px;
 	line-height: calc(36/18);
 	letter-spacing: 0.06em;
